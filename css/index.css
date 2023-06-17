@@ -1,29 +1,63 @@
 /* Body e Heith */
 body {
-min-height: 100vh;
-background-color: #ffffff;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: #ffffff;
 }
 
 /* Centralizar Conteúdo Verticalmente */
 .d-flex {
-align-items: center;
+    align-items: center;
 }
 
 /* App Nav */
 .app-nav {
-padding: 10px;
-max-height: 20vh;
+    padding: 10px;
 }
 
 .nav-link{
-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+#nav-menu{
+    background-color: #EAE6E5;
+}
+
+#myCarousel{
+    padding: 0;
+}
+
+#img-inicio{
+    opacity: 0.5;
+}
+
+/* App Content */
+#container {
+    max-height: 80vh;    
+    padding: 0;
+}
+
+#div-inicio{
+    background-image: url(../img/Background.png);
+    height: 72vh;
+    color: #ffffff;
+}
+#div-institucional{
+    height: 72vh;
+}
+#div-servicos{
+    height: 72vh;
+}
+#div-portfolio{
+    height: 72vh;
 }
 
 
-/* App Content */
-.app-content {
-min-height: 90vh;
-padding: 20px;
+/* Rodapé */ 
+#footer{
+    position: fixed;
+    margin-bottom: 0;
+    background-color: #EAE6E5;
 }
 
 /* Botões */
@@ -44,7 +78,6 @@ overflow-x: auto;
 }
 
 /* Fontes */
-h1,
 h2,
 h3,
 h4,
@@ -56,7 +89,23 @@ h1{
 font-size: 5vh;
 }
 
+#text-inicio{
+    padding-top: 25vh;
+}
+
 .social{
     font-size: 3vh;
     color: black;
+}
+.social:hover{
+    color: #EDAE49;
+}
+
+.link-menu{
+    color: #333;
+    text-decoration: none;
+}
+
+.link-menu:hover{
+    color: #EDAE49;
 }
