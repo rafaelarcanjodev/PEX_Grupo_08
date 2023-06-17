@@ -1,0 +1,62 @@
+/* Body e Heith */
+body {
+min-height: 100vh;
+background-color: #ffffff;
+}
+
+/* Centralizar Conteúdo Verticalmente */
+.d-flex {
+align-items: center;
+}
+
+/* App Nav */
+.app-nav {
+padding: 10px;
+max-height: 20vh;
+}
+
+.nav-link{
+color: #FFFFFF;
+}
+
+
+/* App Content */
+.app-content {
+min-height: 90vh;
+padding: 20px;
+}
+
+/* Botões */
+.btn-primary {
+background-color: #007bff;
+border-color: #007bff;
+}
+
+.table {
+color: #FFFFFF;
+font-size: 1.7vh;
+}
+
+.table-overflow {  
+min-height: 40vh;
+max-height: 40vh;
+overflow-x: auto;
+}
+
+/* Fontes */
+h1,
+h2,
+h3,
+h4,
+h5 {
+color: #333;
+}
+
+h1{
+font-size: 5vh;
+}
+
+.social{
+    font-size: 3vh;
+    color: black;
+}
