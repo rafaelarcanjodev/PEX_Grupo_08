@@ -19,6 +19,10 @@ body {
     color: #FFFFFF;
 }
 
+.nav-item{
+    padding-right: 6vh;
+}
+
 #nav-menu{
     background-color: #EAE6E5;
 }
@@ -39,19 +43,12 @@ body {
 
 #div-inicio{
     background-image: url(../img/Background.png);
-    height: 72vh;
+    height: 70vh;
     color: #ffffff;
 }
-#div-institucional{
-    height: 72vh;
+#div-institucional, #div-servicos, #div-contato, #div-portfolio{
+    height: 70vh;
 }
-#div-servicos{
-    height: 72vh;
-}
-#div-portfolio{
-    height: 72vh;
-}
-
 
 /* Rodapé */ 
 #footer{
