@@ -22,36 +22,35 @@
   
     <!-- Cabeçalho --> 
     <nav class="app-nav navbar navbar-expand-lg">    
-        <div name="container-header" id="container-header" class="container container-fluid">
-            <div class="row d-flex container-fluid"> 
-                
-                
-                <ul class="navbar-nav">
+        <div name="container-header" id="container-header" class="container container-fluid d-flex">
+            <div class="row"> 
+                <ul class="navbar-nav">                    
                     <!-- Logo -->
-                    <li name="div-logo" id="div-logo" class="nav-item col-lg-2">
-                        <img src="img/logo.png" id="img-logo" class="img-fluid mx-auto d-block" alt="Logo do produto">
-                    </li>
-                
-                    <!-- Barra de Pesquisa 
-                    <li name="div-search" id="div-search" class="nav-item col-6 m-3">
-                        
-                    </li>-->
+                    <div class="col-lg-3">
+                        <li name="div-logo" id="div-logo" class="nav-item">
+                            <a data-bs-target="#myCarousel" class="link-menu" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1">
+                                <img src="img/logo.png" id="img-logo" class="img-fluid mx-auto d-block" alt="Logo do produto">
+                            </a>
+                        </li>
+                    </div>
 
-                    <!-- Redes Sociais -->
-                    <li name="div-social" id="div-social" class="nav-item col d-flex justify-content-end">
-                        <div class="row">
-                            <div name="div-instagram" id="div-instagram" class="col m-2">
-                                <a name="link-instagram" id="link-instagram" class="" href="https://www.instagram.com/sljhomehelp" target="_blank">
-                                    <i name="icon-instagram" id="icon-instagram" class="social bi bi-instagram"></i>
-                                </a>
-                            </div>
-                            <div name="div-facebook" id="div-facebook" class="col m-2">
-                                <a name="link-facebook" id="link-facebook" class="" href="https://www.facebook.com/profile.php?id=100064243205954" target="_blank">
-                                    <i name="icon-facebook" id="icon-facebook" class="social bi bi-facebook"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
+                    <div class="col-10 col-sm-0"></div>
+
+                    <!-- Instagram -->
+                    <div class="col d-flex justify-content-center m-3">
+                        <li name="div-social" id="div-social" class="nav-item">
+                        <a name="link-instagram" id="link-instagram" class="" href="https://www.instagram.com/sljhomehelp" target="_blank">
+                            <i name="icon-instagram" id="icon-instagram" class="social bi bi-instagram"></i>
+                        </a>
+                        </li>
+
+                        <!-- Facebook -->                     
+                        <li name="div-social" id="div-social" class="nav-item">
+                        <a name="link-facebook" id="link-facebook" class="" href="https://www.facebook.com/profile.php?id=100064243205954" target="_blank">
+                            <i name="icon-facebook" id="icon-facebook" class="social bi bi-facebook"></i>
+                        </a>
+                        </li>
+                    </div>
                 </ul>
             </div>
         </div>
@@ -96,22 +95,19 @@
     <nav name="nav-container" id="nav-container" class="navbar navbar-expand-lg navbar-light">
             <div name="myCarousel" id="myCarousel" class="carousel carousel-dark slide container-fluid" data-bs-ride="carousel col">
                 
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                </div>
-
                 <div class="carousel-inner d-flex align-items-center flex-wrap">
                     <!-- Inicio -->
                     <div name="div-inicio" id="div-inicio" class="carousel-item active">   
-                        <div class="row container-fluid">
+                        <div class="row">
                             <div class="col-12">                     
                                 <div name="text-inicio" id="text-inicio" class="text-center">
                                     <h1>Renove sua casa</h1>
                                     <p>Somos uma empresa especializada em serviços de melhoria residencial</p>
+                                    <a data-bs-target="#myCarousel" class="link-menu" data-bs-slide-to="2" aria-label="Slide 2">
+                                        <button type="button" id="btn-saiba-mais" class="btn btn-link ">
+                                            Saiba Mais
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -122,7 +118,7 @@
                     <div name="div-institucional" id="div-institucional" class="carousel-item">
                         <div class="row">
                             <div class="col m-5">
-                                <p class="justify">
+                                <p id="text-institucional" class="justify">
                                     Bem-vindo à SLJ Home Help!
                                     <br><br>Somos uma empresa especializada em serviços de melhoria residencial, dedicada a tornar seu lar um espaço mais bonito, confortável e funcional.                                 
                                     <br><br>Com anos de experiência no setor, estamos prontos para atender todas as suas necessidades em pintura, iluminação, aplicação de massas de efeito e alisamento de revestimento em áreas molhadas.
@@ -130,7 +126,7 @@
                                     <br><br>Na SLJ Home Help, nossa missão é superar suas expectativas em cada projeto. Valorizamos a honestidade, o profissionalismo e o compromisso com a satisfação do cliente. Entre em contato conosco hoje mesmo e deixe-nos ajudar a transformar sua casa em um verdadeiro lar.
                                 </p>
                             </div>
-                            <div class="col m-5">
+                            <div id="img-institucional" class="col m-5">
                                 <img src="img/img4.jpg" class="img-fluid mx-auto d-block">
                             </div>
                         </div> 
@@ -206,10 +202,71 @@
 
                     <!-- Portfolio -->
                     <div name="div-portfolio" id="div-portfolio" class="carousel-item">
-                        <div class="row">
-                            <div class="col">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="#">
+                                    <img src="img/alisamento.jpeg" class="img-galery img-thumbnail rounded mx-auto d-block" onclick="abrirModal('img/alisamento.jpeg')">
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#">
+                                    <img src="img/iluminacao (2).jpeg" class="img-galery img-thumbnail rounded mx-auto d-block" onclick="abrirModal('img/iluminacao (2).jpeg')">
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#">
+                                    <img src="img/iluminacao.jpeg" class="img-galery img-thumbnail rounded mx-auto d-block" onclick="abrirModal('img/iluminacao.jpeg')">
+                                    </a>
+                                </div>
                             </div>
-                        </div> 
+                          
+                            <div class="row">
+                                <div class="col-md-4">
+                                <a href="#">
+                                    <img src="img/pintura (2).jpeg" class="img-galery img-thumbnail rounded mx-auto d-block" onclick="abrirModal('img/pintura (2).jpeg')">
+                                </a>
+                                </div>
+                                <div class="col-md-4">
+                                <a href="#">
+                                    <img src="img/pintura (3).jpeg" class="img-galery img-thumbnail rounded mx-auto d-block" onclick="abrirModal('img/pintura (3).jpeg')">
+                                </a>
+                                </div>
+                                <div class="col-md-4">
+                                <a href="#">
+                                    <img src="img/pintura (4).jpeg" class="img-galery img-thumbnail rounded mx-auto d-block" onclick="abrirModal('img/pintura (4).jpeg')">
+                                </a>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                <a href="#">
+                                    <img src="img/pintura e alisamento.jpeg" class="img-galery img-thumbnail rounded mx-auto d-block" onclick="abrirModal('img/pintura e alisamento.jpeg')">
+                                </a>
+                                </div>
+                                <div class="col-md-4">
+                                <a href="#">
+                                    <img src="img/pintura.jpeg" class="img-galery img-thumbnail rounded mx-auto d-block" onclick="abrirModal('img/pintura.jpeg')">
+                                </a>
+                                </div>
+                                <div class="col-md-4">
+                                <a href="#">
+                                    <img src="img/completo.jpeg" class="img-galery img-thumbnail rounded mx-auto d-block" onclick="abrirModal('img/completo.jpeg')">
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                        <!-- The Close Button -->
+                        <span class="close">&times;</span>
+                    
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="img01">
                     </div>
 
 
@@ -241,7 +298,7 @@
                                   </form>
                                   <button type="button" class="btn btn-primary mt-3" id="myButton">Enviar</button>
                             </div>
-                            <div class="col m-5">
+                            <div class="col col-sm-5 m-5">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228988.7322252482!2d-49.12769177126151!3d-26.2633204889864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dea3f39db1ab37%3A0xbc4b989df161e9fa!2sJoinville%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1687033133027!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div> 
@@ -251,13 +308,14 @@
     </nav>
 
     <!-- Rodape -->
-    <footer name="footer" id="footer" class="container-fluid d-flex">
+    <footer name="footer" id="footer" class="footer fixed-bottom d-flex">
         <div name="container-footer" id="container-footer" class="container-fluid justify-content-center d-flex">
             <div class="row text-center d-flex p-2">
                 <p>Desenvolvido por Grupo 08</p>
             </div>
         </div>
     </footer>
+    
 
   <!-- Javascript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
