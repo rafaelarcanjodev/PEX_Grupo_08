@@ -93,7 +93,10 @@ font-size: 5vh;
 
 
 @media (min-width: 100px) and (max-width: 995px) {
-  
+    .body{
+        max-width: 100vh;
+    }
+
     .social{
         font-size: 8vh;
     }
