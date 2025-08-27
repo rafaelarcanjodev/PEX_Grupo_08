@@ -8,4 +8,4 @@ Desenvolver site institucional simples, responsivo, moderno e ágil, para empres
 Html, Css, Bootstrap, Javascript, Jquery.
 
 **Link para Acesso:**
-https://rafarcanjoatos.github.io/PEX_Grupo_08/
+https://rafaelarcanjodev.github.io/PEX_Grupo_08/
